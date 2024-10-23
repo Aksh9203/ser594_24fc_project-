@@ -1,0 +1,87 @@
+Summary Statistics
+------------------
+
+Quantitative Feature: Best of
+Min: 3
+Max: 5
+Median: 3.0
+
+Quantitative Feature: Rank_1
+Min: 1
+Max: 3390
+Median: 53.0
+
+Quantitative Feature: Rank_2
+Min: 1
+Max: 4915
+Median: 53.0
+
+Quantitative Feature: Pts_1
+Min: 1
+Max: 16950
+Median: 885.0
+
+Quantitative Feature: Pts_2
+Min: 1
+Max: 16950
+Median: 885.0
+
+Quantitative Feature: Odd_1
+Min: 0.967
+Max: 67.0
+Median: 1.83
+
+Quantitative Feature: Odd_2
+Min: 0.967
+Max: 51.0
+Median: 1.83
+
+Qualitative Feature: Tournament
+Number of Categories: 206
+Most Frequent: US Open (2394 occurrences)
+Least Frequent: Gijon Open (24 occurrences)
+
+Qualitative Feature: Date
+Number of Categories: 5360
+Most Frequent: 2010-01-19 (51 occurrences)
+Least Frequent: 2011-07-10 (1 occurrences)
+
+Qualitative Feature: Series
+Number of Categories: 8
+Most Frequent: ATP250 (16794 occurrences)
+Least Frequent: Masters Cup (281 occurrences)
+
+Qualitative Feature: Court
+Number of Categories: 2
+Most Frequent: Outdoor (39493 occurrences)
+Least Frequent: Indoor (8670 occurrences)
+
+Qualitative Feature: Surface
+Number of Categories: 4
+Most Frequent: Hard (26857 occurrences)
+Least Frequent: Carpet (769 occurrences)
+
+Qualitative Feature: Round
+Number of Categories: 8
+Most Frequent: 1st Round (21661 occurrences)
+Least Frequent: Round Robin (335 occurrences)
+
+Qualitative Feature: Player_1
+Number of Categories: 1176
+Most Frequent: Djokovic N. (578 occurrences)
+Least Frequent: Blockx A. (1 occurrences)
+
+Qualitative Feature: Player_2
+Number of Categories: 1148
+Most Frequent: Djokovic N. (623 occurrences)
+Least Frequent: Faria J. (1 occurrences)
+
+Qualitative Feature: Winner
+Number of Categories: 901
+Most Frequent: Djokovic N. (1016 occurrences)
+Least Frequent: Chadaj A. (1 occurrences)
+
+Qualitative Feature: Score
+Number of Categories: 5790
+Most Frequent: 6-3 6-4 (881 occurrences)
+Least Frequent: 6-2 1-6 6-3 1-6 4-6 (1 occurrences)

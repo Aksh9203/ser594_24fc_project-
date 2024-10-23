@@ -1,0 +1,3 @@
+pandas==2.2.3  # For data loading and manipulation
+matplotlib==3.9.2  # For generating plots and visualizations
+seaborn==0.13.2  # For statistical data visualizations (e.g., correlation plots)
