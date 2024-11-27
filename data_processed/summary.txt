@@ -1,0 +1,87 @@
+Summary Statistics
+------------------
+
+Quantitative Feature: Best of
+Min: 3
+Max: 5
+Median: 5.0
+
+Quantitative Feature: Rank_1
+Min: 1
+Max: 1085
+Median: 48.0
+
+Quantitative Feature: Rank_2
+Min: 1
+Max: 1065
+Median: 50.0
+
+Quantitative Feature: Pts_1
+Min: 6
+Max: 16950
+Median: 950.0
+
+Quantitative Feature: Pts_2
+Min: 6
+Max: 16950
+Median: 950.0
+
+Quantitative Feature: Odd_1
+Min: 0.967
+Max: 67.0
+Median: 1.9
+
+Quantitative Feature: Odd_2
+Min: 0.967
+Max: 51.0
+Median: 1.83
+
+Qualitative Feature: Tournament
+Number of Categories: 2
+Most Frequent: Australian Open (2309 occurrences)
+Least Frequent: Wimbledon (2197 occurrences)
+
+Qualitative Feature: Date
+Number of Categories: 442
+Most Frequent: 2010-01-19 (51 occurrences)
+Least Frequent: 2006-01-27 (1 occurrences)
+
+Qualitative Feature: Series
+Number of Categories: 1
+Most Frequent: Grand Slam (4506 occurrences)
+Least Frequent: Grand Slam (4506 occurrences)
+
+Qualitative Feature: Court
+Number of Categories: 1
+Most Frequent: Outdoor (4506 occurrences)
+Least Frequent: Outdoor (4506 occurrences)
+
+Qualitative Feature: Surface
+Number of Categories: 2
+Most Frequent: Hard (2309 occurrences)
+Least Frequent: Grass (2197 occurrences)
+
+Qualitative Feature: Round
+Number of Categories: 7
+Most Frequent: 1st Round (2263 occurrences)
+Least Frequent: The Final (37 occurrences)
+
+Qualitative Feature: Player_1
+Number of Categories: 570
+Most Frequent: Djokovic N. (103 occurrences)
+Least Frequent: Vicente F. (1 occurrences)
+
+Qualitative Feature: Player_2
+Number of Categories: 566
+Most Frequent: Djokovic N. (99 occurrences)
+Least Frequent: Bellucci M. (1 occurrences)
+
+Qualitative Feature: Winner
+Number of Categories: 436
+Most Frequent: Djokovic N. (186 occurrences)
+Least Frequent: Novikov D. (1 occurrences)
+
+Qualitative Feature: Score
+Number of Categories: 2562
+Most Frequent: 6-3 6-4 6-4 (30 occurrences)
+Least Frequent: 6-3 3-6 6-3 4-6 8-6 (1 occurrences)

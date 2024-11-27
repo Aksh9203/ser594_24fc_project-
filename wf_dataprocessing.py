@@ -11,36 +11,33 @@ def process_data():
         print(f"File {file_path} not found!")
         return
 
-    # Example cleaning: Handle rows with -1 values
     print("Original data shape:", data.shape)
-    
-    # Check if there are any -1 values in the data
-    if (data == -1).any().any():
-        print("Found -1 values, cleaning data...")
-    else:
-        print("No -1 values found in the dataset.")
-    
+
+    # Filter data to keep only Australian Open and Wimbledon rows
+    selected_tournaments = ['Australian Open', 'Wimbledon']
+    data_filtered = data[data['Tournament'].isin(selected_tournaments)]
+    print(f"Data shape after filtering tournaments: {data_filtered.shape}")
+
     # Remove rows where any column contains -1
-    data_cleaned = data[~(data == -1).any(axis=1)]
-    print(f"Cleaned data shape: {data_cleaned.shape}")
+    data_cleaned = data_filtered[~(data_filtered == -1).any(axis=1)]
+    print(f"Data shape after removing rows with -1: {data_cleaned.shape}")
 
     # Drop duplicates (if needed)
     data_cleaned.drop_duplicates(inplace=True)
 
-    # Get absolute path for data_preprocessing/data_processed folder
-    preprocessing_dir = os.path.join(os.getcwd(), 'data_preprocessing')
-    processed_data_dir = os.path.join(preprocessing_dir, 'data_processed')
+    # Define the output folder and file path
+    processed_data_dir = os.path.join(os.getcwd(), 'data_processed')
+    processed_file_path = os.path.join(processed_data_dir, 'cleaned_atp_data.csv')
 
-    # Create 'data_preprocessing' and 'data_processed' folder if they don't exist
+    # Create directories if they don't exist
     if not os.path.exists(processed_data_dir):
         os.makedirs(processed_data_dir)
         print(f"Created directory: {processed_data_dir}")
 
-    # Save processed data in the data_preprocessing/data_processed folder
-    processed_file_path = os.path.join(processed_data_dir, 'cleaned_atp_data.csv')
+    # Save processed data in the 'data_processed' folder
     data_cleaned.to_csv(processed_file_path, index=False)
 
-    print("Processed data saved:", processed_file_path)
+    print(f"Processed data saved at: {processed_file_path}")
 
 # Run the processing function
 process_data()

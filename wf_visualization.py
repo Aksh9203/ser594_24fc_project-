@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def load_data():
     """Load the cleaned ATP dataset from the data_processed directory."""
     project_root = os.path.dirname(__file__)  # Directory of this script
-    data_path = os.path.join(project_root, "data_preprocessing", "data_processed", "cleaned_atp_data.csv")
+    data_path = os.path.join(project_root, "data_processed", "cleaned_atp_data.csv")
     
     if not os.path.exists(data_path):
         raise FileNotFoundError(f"Dataset not found at {data_path}. Please ensure the file exists.")
@@ -90,7 +90,7 @@ def main():
     # Define output directories.
     project_root = os.path.dirname(__file__)  # Directory of this script
     visuals_dir = os.path.join(project_root, "visuals")
-    processed_data_dir = os.path.join(project_root, "data_preprocessing", "data_processed")
+    processed_data_dir = os.path.join(project_root,  "data_processed")
 
     os.makedirs(visuals_dir, exist_ok=True)  # Create visuals folder if it doesn't exist
     os.makedirs(processed_data_dir, exist_ok=True)  # Create data_processed folder if it doesn't exist
